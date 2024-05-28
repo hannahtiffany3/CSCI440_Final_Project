@@ -105,7 +105,6 @@ int main(int argc, char* argv[]){
 	int rc;
 	int rs;
 	long t;
-	//long cpyt[NUM_THREADS];//stores thread id info
 	struct bounded_buffer *buffer=(struct bounded_buffer*)malloc(sizeof(struct bounded_buffer));
 	buffer->outputfp=NULL;
 	buffer->inputfp=NULL;
