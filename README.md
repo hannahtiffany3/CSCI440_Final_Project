@@ -54,3 +54,13 @@ Complied with make
 Implementation in GO:
 
 go run multi-lookup.go {input files(s)} {output file}
+
+# Python Test Scripts
+
+1. Run test 3 times
+2. Calculate
+3. Calculate standard deviation
+4. Calculate error
+5. Repeat steps 2-4 until error<.1*mean
+
+
